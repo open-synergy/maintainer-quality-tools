@@ -94,7 +94,7 @@ else
 fi
 
 # Workaround to force using system site packages (see https://github.com/Shippable/support/issues/241#issuecomment-57947925)
-rm -f $VIRTUAL_ENV/lib/python2.7/no-global-site-packages.txt
+#rm -f $VIRTUAL_ENV/lib/python2.7/no-global-site-packages.txt
 # pip install --upgrade pip
 pip install -q --no-binary pycparser -r ${HOME}/maintainer-quality-tools/requirements.txt
 
